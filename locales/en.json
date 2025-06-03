@@ -1,0 +1,9 @@
+{
+  "login": {
+    "title": "LOGIN",
+    "cpfPlaceholder": "Holder's CPF",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Forgot my password",
+    "button": "LOGIN"
+  }
+}

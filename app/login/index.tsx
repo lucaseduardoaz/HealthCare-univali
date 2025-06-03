@@ -9,8 +9,10 @@ import {
 } from "react-native";
 import { router } from "expo-router";
 import { theme } from "../styles/theme";
+import { useTranslation } from "react-i18next";
 
 export default function Login() {
+  const { t } = useTranslation();
   const [cpf, setCpf] = useState("");
   const [senha, setSenha] = useState("");
 
@@ -26,27 +28,27 @@ export default function Login() {
           <Text style={styles.logo}>
             SMART CARE<Text style={styles.plus}>+</Text>
           </Text>
-          <Text style={styles.subtitle}>LOGIN</Text>
+          <Text style={styles.subtitle}>{t("login.title")}</Text>
         </View>
 
         <View style={styles.form}>
           <TextInput
             style={styles.input}
-            placeholder="CPF DO TITULAR"
+            placeholder={t("login.cpfPlaceholder")}
             value={cpf}
             onChangeText={setCpf}
             keyboardType="numeric"
           />
           <TextInput
             style={styles.input}
-            placeholder="SENHA"
+            placeholder={t("login.passwordPlaceholder")}
             value={senha}
             onChangeText={setSenha}
             secureTextEntry
           />
-          <Text style={styles.forgotPassword}>Esqueci minha senha</Text>
+          <Text style={styles.forgotPassword}>{t("login.forgotPassword")}</Text>
           <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
-            <Text style={styles.loginButtonText}>ENTRAR</Text>
+            <Text style={styles.loginButtonText}>{t("login.button")}</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -96,6 +98,7 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 8,
     marginBottom: 10,
+    width: "100%",
   },
   forgotPassword: {
     color: theme.colors.primary,

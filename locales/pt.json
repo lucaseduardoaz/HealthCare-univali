@@ -1,0 +1,9 @@
+{
+  "login": {
+    "title": "LOGIN",
+    "cpfPlaceholder": "CPF DO TITULAR",
+    "passwordPlaceholder": "SENHA",
+    "forgotPassword": "Esqueci minha senha",
+    "button": "ENTRAR"
+  }
+}

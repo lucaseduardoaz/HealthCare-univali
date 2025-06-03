@@ -1,6 +1,7 @@
 import { Text, View } from "react-native";
 import Main from "./Main";
 import Navbar from "./components/Navbar";
+import './i18n';
 
 export default function Index() {
   return (
