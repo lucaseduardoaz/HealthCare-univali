@@ -48,3 +48,60 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+- O aplicativo de triagem médica foi desenvolvido para auxiliar profissionais da saúde na coleta inicial de informações clínicas de pacientes, facilitando a priorização no atendimento.
+
+📲 Como usar
+Login
+
+Acesse o aplicativo com suas credenciais (usuário e senha).
+
+Caso ainda não tenha cadastro, solicite acesso ao administrador.
+
+Início da Triagem
+
+Clique em "Nova Triagem" para iniciar o processo.
+
+Informe os dados básicos do paciente:
+
+Nome completo
+
+Idade
+
+Gênero
+
+Documento de identificação (opcional)
+
+Preenchimento dos Sintomas
+
+Responda ao questionário clínico com base nas queixas do paciente.
+
+Selecione os sintomas apresentados e sua intensidade.
+
+Informe sinais vitais, se disponíveis (PA, FC, temperatura, etc).
+
+Classificação de Risco
+
+O sistema aplicará regras de prioridade com base nas informações fornecidas.
+
+A cor de classificação (vermelho, laranja, amarelo, verde ou azul) será exibida automaticamente.
+
+Finalização
+
+Revise os dados.
+
+Clique em "Finalizar Triagem" para registrar.
+
+Os dados serão enviados para a fila de atendimento e poderão ser visualizados por profissionais responsáveis.
+
+📁 Histórico
+Acesse o menu "Triagens Realizadas" para consultar triagens anteriores.
+
+É possível visualizar detalhes ou atualizar informações, se necessário.
+
+🚨 Observações
+A aplicação não substitui o julgamento clínico, apenas oferece apoio à priorização.
+
+O uso adequado depende da veracidade e completude dos dados inseridos.
+
+
